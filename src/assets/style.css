@@ -1,0 +1,25 @@
+#viewer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#rete {
+  position: relative;
+  z-index: 2;
+}
+
+.context-menu {
+  z-index: 4;
+}
+
+.node {
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+
+.node .title,
+.node .output-title,
+.node .input-title {
+  color: black !important;
+}
